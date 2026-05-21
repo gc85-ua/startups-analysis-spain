@@ -6,7 +6,7 @@ from src.shared.utils import slugify, normalize
 
 def scrape_INE_ccaa_provinces(
     url: str = "https://www.ine.es/daco/daco42/codmun/cod_ccaa_provincia.htm",
-    out_file_path: str = "../data/processed/ine_ccaa_y_provincias.csv",
+    out_file_path: str = "../data/silver/ine_ccaa_y_provincias.csv",
     verbose: bool = True,
 ):
     response = None
