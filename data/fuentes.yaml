@@ -1,0 +1,112 @@
+muestras:
+  - nombre: ENISA Startups Certificadas
+    publicador: ENISA
+    url: https://www.enisa.es/es/certifica-tu-startup/startups
+    contenido: lista de empresas certificadas como startups por ENISA incluye NIF y Localizacion a nivel provincial y autonomico
+    formato: powerBI
+  - nombre: Einforma
+    publicador: INFORMA D&B S.A.U. (S.M.E.) 
+    url: https://www.einforma.com/
+    contenido: base de datos de empresas, contiene nif, razon social, direccion con codigo postal, codigo CNAE, forma juridica, etc.
+    formato: web
+  - nombre: Iberinform
+    publicador: Iberinform Internacional, SAU
+    url: https://www.iberinform.es/
+    contenido: base de datos de empresas, contiene nif, razon social, direccion con codigo postal, codigo CNAE, forma juridica, etc.
+    formato: web
+  - nombre: Directorio de sociedades mercantiles
+    publicador: Registro Mercantil Central
+    url: https://opendata.registradores.org/directorio
+    contenido: Base de datos de sociedades mercantiles inscritas en el Registro Mercantil, con información como razón social, NIF, domicilio social, código CNAE, forma jurídica, etc.
+    formato: web
+atributos territoriales:
+  - nombre: Cobertura Banda Ancha
+    publicador: Ministerio para la Transformación Digital y de la Función Pública
+    url: https://avance.digital.gob.es/banda-ancha/cobertura/Paginas/informacion-cobertura.aspx
+    contenido: porcentaje de cobertura satelital, FTTH, 5G, 1Gbps a nivel autonómico, provincial y municipal desde 2021 a 2024
+    formato: hoja excel
+  - nombre: estadistica de estudiantes universitarios
+    publicador: Ministerio de Ciencia, Innovación y Universidades
+    url: https://www.ciencia.gob.es/Ministerio/Estadisticas/SIIU/Estudiantes.html
+    contenido: estadísticas por Grados y Ciclos, Máster, Doctorado y ramas de conocimiento, detalle hasta por universidad.
+    formato: hoja excel, csv
+  - nombre: Ministerio de Ciencia, Innovación y Universidades
+    publicador: Ministerio de Ciencia, Innovación y Universidades
+    url: https://www.ciencia.gob.es/Ministerio/Estadisticas/sicti/recidi.html
+    contenido: Distribución geográfica de las distintas entidades que conforman la Red Española de I+D+i
+    formato: powerBI
+  - nombre: Clusters de Innovación y Agrupaciones Empresariales Innovadoras
+    publicador: Ministerio de Industria y Turismo
+    url: https://clusters.ipyme.org/es-es/Identificar/Paginas/ListadoAEI.aspx
+    contenido: listado de clusters de innovación y agrupaciones empresariales innovadoras reconocidas por el Ministerio, con su localización y miembros. Importe de Subvenciones. Filtro por Sector, subsector y Comunidad Autónoma.
+    formato: web/csv
+  - nombre: Directorio de Centros Tecnológicos y Centros de Apoyo a la innovación tecnológica
+    publicador: Ministerio de Ciencia, Innovación y Universidades
+    url: https://aplicaciones.ciencia.gob.es/inforct/listadoItemInfoRct.mec
+    contenido: listado de centros tecnológicos y centros de apoyo a la innovación tecnológica reconocidos por el Ministerio con su localización.
+    formato: web/csv
+  - nombre: Registro de Universidades, Centros y Títulos (RUCT)
+    publicador: Ministerio de Ciencia, Innovación y Universidades
+    url: https://www.educacion.gob.es/ruct/home
+    contenido: listado de universidades, centros y títulos oficiales reconocidos por el Ministerio.
+    formato: web/csv
+  - nombre: número de asientos y número de operaciones - AENA
+    publicador: AENA y Ministerio de Fomento
+    url: https://apps.fomento.gob.es/bdotle/visorBDpop.aspx?i=430
+    contenido: datos estadísticos de aeropuertos españoles, incluyendo número de asientos y número de operaciones por aeropuerto
+    formato: web/csv
+  - nombre: Datos afiliación a la seguridad social por municipios
+    publicador: Tesorería General de la Seguridad Social
+    url: https://www.seg-social.es/wps/portal/wss/internet/EstadisticasPresupuestosEstudios/Estadisticas/EST8/EST10/EST305/c43ad8ea-fe79-4329-ac8e-e5758f3c4d7a/f83fe4aa-2dee-49c5-8317-98d105813796
+    contenido: datos de afiliación a la Seguridad Social por municipios, provincias y comunidades autónomas
+    formato: hoja excel/csv
+    licencia: CC BY 4.0
+  - nombre: BD Sistema Estatal Índices de Alquiler de Vivienda
+    Publicador: Ministerio de Vivienda y Agenda Urbana
+    url: https://cdn.mivau.gob.es/portal-web-mivau/vivienda/serpavi/2025-09-10_bd_SERPAVI_2011-2023.xlsx
+    contenido: Índices de alquiler de vivienda por municipios, provincias y comunidades autónomas
+    formato: hoja excel
+    licencia: CC BY 4.0
+normalizacion:
+  - nombre: Relaciones de municipios y sus códigos por provincias.
+    publicador: Instituto Nacional de Estadística (INE)
+    url: https://www.ine.es/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736177031&menu=ultiDatos&idp=1254734710990
+    contenido: listado de municipios españoles con sus códigos oficiales, organizados por provincias y comunidades autónomas.
+    formato: hoja excel/csv, web
+    licencia: CC BY 4.0
+  - nombre: Clasificación Nacional de Actividades Económicas (CNAE) 2025
+    publicador: Instituto Nacional de Estadística (INE)
+    url: https://ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736177032&menu=ultiDatos&idp=1254735976614
+    contenido: estructura jerárquica y descripciones de los códigos CNAE 2025, incluyendo secciones, divisiones, grupos y subgrupos.
+    formato: hoja excel
+    licencia: CC BY 4.0
+  - nombre: padron municipal
+    publicador: Instituto Nacional de Estadística (INE)
+    url: https://www.ine.es/pob_xls/pobmun.zip
+    contenido: datos del padrón municipal población por municipios
+    formato: zip, hoja excel
+    licencia: CC BY 4.0
+geográfico:
+  - nombre: poligonos municipios
+    publicador: Instituto Geográfico Nacional (IGN)
+    url: https://opendata.esri.es/datasets/ComunidadSIG::municipios-ign/about
+    contenido: poligonos de municipios españoles en formato geojson
+    formato: geojson
+    licencia: CC BY 4.0
+  - nombre: aeropuertos españoles
+    publicador: AENA
+    url: https://opendata.esri.es/datasets/ComunidadSIG::aeropuertos-espa%C3%B1oles/about
+    contenido: datos geográficos de aeropuertos españoles, incluyendo coordenadas geográficas, códigos IATA y ICAO, y otra información relevante.
+    formato: csv/geojson
+    licencia: CC BY 4.0
+  - nombre: puertos españoles
+    publicador: Puertos del Estado
+    url: https://opendata.esri.es/datasets/ComunidadSIG::puertos-de-espa%C3%B1a/about
+    contenido: datos geográficos de puertos españoles, incluyendo coordenadas geográficas y nombres.
+    formato: csv/geojson
+    licencia: CC BY 4.0
+  - nombre: buscador de codigos postales
+    publicador: Correos
+    url: https://www.correos.es/es/es/herramientas/codigos-postales/detalle
+    contenido: buscador de códigos postales por dirección, municipio o provincia.
+    formato: web
