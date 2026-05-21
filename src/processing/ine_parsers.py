@@ -4,7 +4,7 @@ import re
 import os
 
 def parse_cnae_2025_txt(
-    text_file_path: str = "../data/raw/INE/cnae_2025.txt",
+    text_file_path: str = "../data/bronze/INE/cnae_2025.txt",
 ) -> pd.DataFrame:
     def is_seccion(line) -> tuple[bool, str, str]:
         if "SECCIÓN" in line:
@@ -88,7 +88,7 @@ def parse_cnae_2025_txt(
 
 
 def parse_cnae_2025_excel(
-    excel_file_path: str = "../data/raw/INE/cnae_2025.xlsx",
+    excel_file_path: str = "../data/bronze/INE/cnae_2025.xlsx",
     sheet_name="Estructura_CNAE2025",
     usecols="A:B",
 ) -> pd.DataFrame:
@@ -182,7 +182,7 @@ def parse_cnae_2025_excel(
     return pd.DataFrame(data)
 
 
-def download_callejero(month: int, year: int, download_directory:str="../data/raw/INE/") -> str:
+def download_callejero(month: int, year: int, download_directory:str="../data/bronze/INE/") -> str:
     url = "https://www.ine.es/prodyser/callejero/caj_esp/caj_esp_0{month}{year}.zip"
     output_path = f"{download_directory}caj_esp_0{month}{year}.zip"
     check_dir = os.path.dirname(output_path)

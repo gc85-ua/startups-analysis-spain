@@ -170,7 +170,7 @@ class CorreosApi:
         return cls.try_get(URL, HEADERS, PARAMS)
 
     @classmethod
-    def get_coords_from_postal_code(cls, postal_code: str, save_geojson: bool = False, geojson_directory: str = "../data/processed/geojson/") -> tuple[float, float] | tuple[None, None]:
+    def get_coords_from_postal_code(cls, postal_code: str, save_geojson: bool = False, geojson_directory: str = "../data/silver/geojson/") -> tuple[float, float] | tuple[None, None]:
         suggestions = cls.get_postal_code_suggestion(postal_code).get("suggestions", None)
         suggestion = suggestions[0] if suggestions else None
         if not suggestion:
