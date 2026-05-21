@@ -1,0 +1,29 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# non usable files and folders
+null-*
+dummy/*
+.~lock*
+
+# too big files
+*.zip
+
+# environment variables
+.env
+
+# cache datasets
+cache/
+
+notebooks/*
+!notebooks/*.ipynb
+
+docs/manuscrito/
