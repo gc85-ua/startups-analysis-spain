@@ -143,7 +143,7 @@ class CorreosApi:
         return response
 
     @classmethod
-    @disk_cache("_details_cache_directory",key_regex='^\d{5}')
+    @disk_cache("_details_cache_directory",key_regex=r'^\d{5}')
     def get_postal_code_detail(
         cls, address: str, latitude: float, longitude: float, cache_response_as_json=True
     ) -> Dict:
