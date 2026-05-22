@@ -59,7 +59,7 @@ class EinformaScraper(Scraper):
             "cnae_2025": self.extract_text_by_xpath(
                 xpath_cnae_2025
             ),
-            "cnae_2009-2025": self.extract_text_by_xpath(
+            "cnae_2009_2025": self.extract_text_by_xpath(
                 xpath_cnae_2009_2025
             ),
             "forma_juridica": self.extract_text_by_xpath(
