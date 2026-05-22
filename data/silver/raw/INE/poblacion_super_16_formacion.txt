@@ -1,9 +1,0 @@
-Los resultados de Ceuta y Melilla deben tomarse con precaución porque pueden estar afectados por grandes errores de muestreo.
-Analfabetos: Coincide con el codigo 01 de la clasificacion de programas y certificaciones en niveles de formacion alcanzados de la CNED 2014.
-Estudios primarios incompletos: Coincide con el codigo 02 de la clasificacion de programas y certificaciones en niveles de formacion alcanzados de la CNED 2014.
-Educacion primaria: Coincide con el codigo 10 de la clasificacion de programas y certificaciones en niveles de formacion alcanzados de la CNED 2014.
-Primera etapa de educacion secundaria y similar: Comprende los codigos 21 a 24 de la clasificacion de programas y certificaciones en niveles de formacion alcanzados de la CNED 2014.
-Segunda etapa de educacion secundaria con orientacion general: Coincide con el codigo 32 de la clasificacion de programas y certificaciones en niveles de formacion alcanzados de la CNED 2014.
-Segunda etapa de educacion secundaria con orientacion profesional (incluye educacion postsecundaria no superior): Comprende los codigos 33 a 35, 38 y 41 de la clasificacion de programas y certificaciones en niveles de formacion alcanzados de la CNED 2014.
-Educacion superior: Comprende los codigos 51, 52, 61 a 63, 71 a 75 y 81 de la clasificacion de programas y certificaciones en niveles de formacion alcanzados de la CNED 2014.
-En el primer trimestre de 2020, como consecuencia de la declaración del estado de alarma (Reales Decretos 463/2020 y 487/2020) motivado por la pandemia del COVID-19, el tamaño muestral de las primeras entrevistas de EPA en las semanas 11 a 13 ha sido inferior al de otros trimestres, por lo que los coeficientes de variación de las estimaciones más desagregadas pueden ser superiores a lo habitual. Se recomienda consultar las tablas de INEbase relativas a dichos coeficientes de variación.
