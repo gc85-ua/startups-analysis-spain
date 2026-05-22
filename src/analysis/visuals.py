@@ -2,6 +2,7 @@ import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 import pandas as pd
 from shapely.geometry import Polygon, MultiPolygon
+from matplotlib.colors import ListedColormap
 
 plt.rcParams.update({
     "pgf.texsystem": "pdflatex",
@@ -72,11 +73,6 @@ def generar_mapa(gdf_base, df_datos, col_id_df, col_valor, col_id_mapa='cod_prov
     # Color para los nulos
     color_nulos = "#dcdde1"  # Un gris claro profesional
 
-    from matplotlib.colors import ListedColormap
-
-    
-
-    # 2. Creamos el mapa de colores basado en el orden de los valores
     cmap_personalizado = 'OrRd' if not custom_color_map else ListedColormap([custom_color_map[val] for val in sorted(mapa_final[col_valor].dropna().unique())])
 
     # Dibujar el mapa
