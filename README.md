@@ -105,3 +105,7 @@ notebooks:
 - `src.scrapers.powerbi.queries` almacena consultas y cabeceras de la petición HTTP necesarias para reproducir la extracción desde el navegador.
 - La función `src.scrapers.powerbi.queries.get_json_from_powerbi()` ejecuta la petición y devuelve la respuesta JSON cruda.
 - La función `src.scrapers.powerbi.powerbi_parser.pbi_json_to_df()` convierte la respuesta JSON de Power BI en un `DataFrame` plano, resolviendo diccionarios, valores repetidos, nulos y fechas codificadas.
+
+### Archivo .env
+- El archivo `.env.example` contiene variables de entorno necesarias para la ejecución del proyecto, como la API key de Google Maps.
+- Se recomienda crear un archivo `.env` a partir del ejemplo y completar los valores correspondientes antes de ejecutar los notebooks.
