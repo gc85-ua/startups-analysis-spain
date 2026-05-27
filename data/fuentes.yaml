@@ -110,3 +110,169 @@ geográfico:
     url: https://www.correos.es/es/es/herramientas/codigos-postales/detalle
     contenido: buscador de códigos postales por dirección, municipio o provincia.
     formato: web
+mapa_archivos:
+  bronze:
+    - ruta: data/bronze/ENISA/enisa_startups_certificadas.csv
+      fuente: ENISA Startups Certificadas
+    - ruta: data/bronze/einforma/einforma_startups_certificadas.csv
+      fuente: Einforma
+    - ruta: data/bronze/iberinform/iberinform_startups_certificadas.csv
+      fuente: Iberinform
+    - ruta: data/bronze/registradores/registradores_startups_certificadas.csv
+      fuente: Directorio de sociedades mercantiles
+    - ruta: data/bronze/avance.digital.gob.es/Cobertura_BA_España_2021-2024_MUN_PROV_CCAA_Nacional_datosgob.xlsx
+      fuente: Cobertura Banda Ancha
+    - ruta: data/bronze/ciencia.gob.es/listauniversidades.xls
+      fuente: Registro de Universidades, Centros y Títulos (RUCT)
+    - ruta: data/bronze/ciencia.gob.es/lista_centros_tecnologicos.xlsx
+      fuente: Directorio de Centros Tecnológicos y Centros de Apoyo a la innovación tecnológica
+    - ruta: data/bronze/ciencia.gob.es/SIIU/3_3_Egr_Sex_Edad2_Amb_Univ.csv
+      fuente: estadistica de estudiantes universitarios
+    - ruta: data/bronze/ciencia.gob.es/SIIU/3_3_Egr_Master_Sex_Edad2_Amb_Univ.csv
+      fuente: estadistica de estudiantes universitarios
+    - ruta: data/bronze/ciencia.gob.es/SIIU/3_3_Egr_Doctorado_Sex_Edad2_Amb_Univ.csv
+      fuente: estadistica de estudiantes universitarios
+    - ruta: data/bronze/ciencia.gob.es/ReutilizacionDatos_MapaICTS.csv
+      fuente: Ministerio de Ciencia, Innovación y Universidades
+    - ruta: data/bronze/clusters.ipyme.org/Agrupación Empresariales Innovadoras.csv
+      fuente: Clusters de Innovación y Agrupaciones Empresariales Innovadoras
+    - ruta: data/bronze/apps.fomento.gob.es/CO430_Num_Asientos_Opers__AeropBase_CiasAereasMasRepresen_Anyo.csv
+      fuente: número de asientos y número de operaciones - AENA
+    - ruta: data/bronze/mivau.gob.es/2025-09-10_bd_SERPAVI_2011-2023.xlsx
+      fuente: BD Sistema Estatal Índices de Alquiler de Vivienda
+    - ruta: data/bronze/INE/caj_esp_012025.zip
+      fuente: padron municipal
+    - ruta: data/bronze/INE/pr_cre.xlsx
+      fuente: Relaciones de municipios y sus códigos por provincias.
+    - ruta: data/bronze/INE/Correspondencia_CNAE25_CNAE09.xlsx
+      fuente: Clasificación Nacional de Actividades Económicas (CNAE) 2025
+    - ruta: data/bronze/INE/Estructura_CNAE2025.xlsx
+      fuente: Clasificación Nacional de Actividades Económicas (CNAE) 2025
+    - ruta: data/bronze/INE/diccionario25.xlsx
+      fuente: Clasificación Nacional de Actividades Económicas (CNAE) 2025
+    - ruta: data/bronze/INE/pobmun/pobmun20.xlsx
+      fuente: padron municipal
+    - ruta: data/bronze/INE/pobmun/pobmun21.xlsx
+      fuente: padron municipal
+    - ruta: data/bronze/INE/pobmun/pobmun22.xlsx
+      fuente: padron municipal
+    - ruta: data/bronze/INE/pobmun/pobmun23.xlsx
+      fuente: padron municipal
+    - ruta: data/bronze/INE/pobmun/pobmun24.xlsx
+      fuente: padron municipal
+    - ruta: data/bronze/INE/pobmun/pobmun25.xlsx
+      fuente: padron municipal
+    - ruta: data/bronze/SS/afiliacion/MUNCNAE1220.xlsx
+      fuente: Datos afiliación a la seguridad social por municipios
+    - ruta: data/bronze/SS/afiliacion/MUNCNAE1221.xlsx
+      fuente: Datos afiliación a la seguridad social por municipios
+    - ruta: data/bronze/SS/afiliacion/MUNCNAE1222.xlsx
+      fuente: Datos afiliación a la seguridad social por municipios
+    - ruta: data/bronze/SS/afiliacion/MUNCNAE1223.xlsx
+      fuente: Datos afiliación a la seguridad social por municipios
+    - ruta: data/bronze/SS/afiliacion/MUNCNAE1224.xlsx
+      fuente: Datos afiliación a la seguridad social por municipios
+    - ruta: data/bronze/opendata.esri.es/Aeropuertos_Espa%C3%B1oles.csv
+      fuente: aeropuertos españoles
+    - ruta: data/bronze/opendata.esri.es/Aeropuertos_Espa%C3%B1oles.geojson
+      fuente: aeropuertos españoles
+    - ruta: data/bronze/opendata.esri.es/Puertos_de_Espa%C3%B1a.geojson
+      fuente: puertos españoles
+    - ruta: data/bronze/opendata.esri.es/Municipios_-7023933172321596289.geojson
+      fuente: poligonos municipios
+    - ruta: data/bronze/INE/*
+      fuente: normalizacion INE
+
+  silver:
+    - ruta: data/silver/iberinform_startups_certificadas.parquet
+      fuente: Iberinform
+    - ruta: data/silver/agrupaciones_empresariales_innovadoras.csv
+      fuente: Clusters de Innovación y Agrupaciones Empresariales Innovadoras
+    - ruta: data/silver/centros_somma_recidi.csv
+      fuente: Ministerio de Ciencia, Innovación y Universidades
+    - ruta: data/silver/centros_tecnologicos_y_de_apoyo_recidi.csv
+      fuente: Directorio de Centros Tecnológicos y Centros de Apoyo a la innovación tecnológica
+    - ruta: data/silver/cnae_2025.csv
+      fuente: Clasificación Nacional de Actividades Económicas (CNAE) 2025
+    - ruta: data/silver/cobertura_banda_ancha_ccaa_2021_2024.csv
+      fuente: Cobertura Banda Ancha
+    - ruta: data/silver/cobertura_banda_ancha_municipios_2021_2024.csv
+      fuente: Cobertura Banda Ancha
+    - ruta: data/silver/cobertura_banda_ancha_nacional_2021_2024.csv
+      fuente: Cobertura Banda Ancha
+    - ruta: data/silver/cobertura_banda_ancha_provincias_2021_2024.csv
+      fuente: Cobertura Banda Ancha
+    - ruta: data/silver/caj_esp_012025.csv
+      fuente: padron municipal
+    - ruta: data/silver/ine_ccaa_y_provincias.csv
+      fuente: Relaciones de municipios y sus códigos por provincias.
+    - ruta: data/silver/icts.csv
+      fuente: Ministerio de Ciencia, Innovación y Universidades
+    - ruta: data/silver/municipios.csv
+      fuente: Relaciones de municipios y sus códigos por provincias.
+    - ruta: data/silver/parques_cientificos_tecnologicos_recidi.csv
+      fuente: Ministerio de Ciencia, Innovación y Universidades
+    - ruta: data/silver/poblacion_2020.parquet
+      fuente: padron municipal
+    - ruta: data/silver/poblacion_2021.parquet
+      fuente: padron municipal
+    - ruta: data/silver/poblacion_2022.parquet
+      fuente: padron municipal
+    - ruta: data/silver/poblacion_2023.parquet
+      fuente: padron municipal
+    - ruta: data/silver/poblacion_2024.parquet
+      fuente: padron municipal
+    - ruta: data/silver/poblacion_2025.parquet
+      fuente: padron municipal
+    - ruta: data/silver/universidades_arc_gis.csv
+      fuente: Registro de Universidades, Centros y Títulos (RUCT)
+    - ruta: data/silver/vuelos_aeropuertos_clase_trafico.csv
+      fuente: número de asientos y número de operaciones - AENA
+    - ruta: data/silver/MUNCNAE1220.csv
+      fuente: Datos afiliación a la seguridad social por municipios
+    - ruta: data/silver/MUNCNAE1221.csv
+      fuente: Datos afiliación a la seguridad social por municipios
+    - ruta: data/silver/MUNCNAE1222.csv
+      fuente: Datos afiliación a la seguridad social por municipios
+    - ruta: data/silver/MUNCNAE1223.csv
+      fuente: Datos afiliación a la seguridad social por municipios
+    - ruta: data/silver/MUNCNAE1224.csv
+      fuente: Datos afiliación a la seguridad social por municipios
+    - ruta: data/silver/geojson/*.geojson
+      fuente: buscador de codigos postales
+
+  gold:
+    - ruta: data/gold/aei_provincial.csv
+      fuente: Clusters de Innovación y Agrupaciones Empresariales Innovadoras
+    - ruta: data/gold/afiliados_provincial.csv
+      fuente: Datos afiliación a la seguridad social por municipios
+    - ruta: data/gold/alquiler_ccaa_2021_2023.parquet
+      fuente: BD Sistema Estatal Índices de Alquiler de Vivienda
+    - ruta: data/gold/alquiler_municipios_2021_2023.parquet
+      fuente: BD Sistema Estatal Índices de Alquiler de Vivienda
+    - ruta: data/gold/alquiler_provincias_2021_2023.parquet
+      fuente: BD Sistema Estatal Índices de Alquiler de Vivienda
+    - ruta: data/gold/categoria_cluster_provincia_2023.csv
+      fuente: Clusters de Innovación y Agrupaciones Empresariales Innovadoras
+    - ruta: data/gold/centros_somma_provincial.csv
+      fuente: Ministerio de Ciencia, Innovación y Universidades
+    - ruta: data/gold/cobertura_provincial.csv
+      fuente: Cobertura Banda Ancha
+    - ruta: data/gold/ct_caeit_provincial.csv
+      fuente: Directorio de Centros Tecnológicos y Centros de Apoyo a la innovación tecnológica
+    - ruta: data/gold/ct_cait_provincial.csv
+      fuente: Directorio de Centros Tecnológicos y Centros de Apoyo a la innovación tecnológica
+    - ruta: data/gold/egresados_doctorado_2021_2024.parquet
+      fuente: estadistica de estudiantes universitarios
+    - ruta: data/gold/egresados_grados_2021_2024.parquet
+      fuente: estadistica de estudiantes universitarios
+    - ruta: data/gold/egresados_master_2021_2024.parquet
+      fuente: estadistica de estudiantes universitarios
+    - ruta: data/gold/icts_provincial.csv
+      fuente: Ministerio de Ciencia, Innovación y Universidades
+    - ruta: data/gold/parques_provincial.csv
+      fuente: Ministerio de Ciencia, Innovación y Universidades
+    - ruta: data/gold/provincia_startups_grados_accum_2024.parquet
+      fuente: estadistica de estudiantes universitarios
+    - ruta: data/gold/universidades_provincial.csv
+      fuente: Registro de Universidades, Centros y Títulos (RUCT)
