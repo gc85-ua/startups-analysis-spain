@@ -13,6 +13,7 @@ El código se organiza en módulos de Python y notebooks de Jupyter.
 - [uv](https://github.com/astral-sh/uv), como gestor de dependencias y entorno virtual.
 - [google-chrome-canary](https://www.google.com/chrome/canary/), versiones superiores a la 148.
 - [vscode](https://code.visualstudio.com/) o cualquier otro editor de texto que soporte las extensiones del archivo [extensions.json](./.vscode/extensions.json)
+- API key de [google maps](https://developers.google.com/maps/documentation), el coste será 0 porque no se excederá el límite gratuito, pero es necesaria para obtener coordenadas geográficas a partir de direcciones.
 - VPN (Opcional, pero recomendado para evitar bloqueos al scrapear datos)
 
 ### Instalación de dependencias
